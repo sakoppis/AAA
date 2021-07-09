@@ -19,10 +19,10 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: iks-test
-  IKS_CLUSTER: example-iks-cluster-name-or-id
-  DEPLOYMENT_NAME: iks-test
-  PORT: 5001
+  IMAGE_NAME: techbrewers-send-offers
+  IKS_CLUSTER: c3dmqlcd0udnvmq5ugpg
+  DEPLOYMENT_NAME: techbrewers-send-offers
+  PORT: 8085
 
 jobs:
   setup-build-publish-deploy:
